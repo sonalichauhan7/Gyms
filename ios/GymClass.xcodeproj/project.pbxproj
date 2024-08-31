@@ -8,13 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* GymClassTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* GymClassTests.m */; };
+		0990137ADFCD4360A24E2F3F /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 99221B65EF544C798B48EFB5 /* Montserrat-Bold.ttf */; };
 		0C80B921A6F3F58F76C31292 /* libPods-GymClass.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-GymClass.a */; };
+		0F3C4C60DE57482CA01F5C36 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C3C71EFD2444A7E9C681867 /* Montserrat-Medium.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2886A7FE702D4F7FAFDFCE00 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4F584852ED6C484DB1213B68 /* Montserrat-SemiBold.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-GymClass-GymClassTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-GymClass-GymClassTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		876BE96BA8EA49C8B189027C /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C99510BCCB354F4EADD85674 /* Montserrat-Regular.ttf */; };
+		96A9C8C025494BFC96292532 /* SFProText-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4F25645FE664C0DB07D74F7 /* SFProText-Regular.ttf */; };
 		973E1989AF279422DE1F1536 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 9B7EB5C8ECB3FA9D1AA8DDB6 /* PrivacyInfo.xcprivacy */; };
+		AB53DFDE488542DE9478FE23 /* SFProText-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76FC2158C5304406959975A2 /* SFProText-Medium.ttf */; };
+		F1588AEF136F4716B1D5FA65 /* SFProText-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D928771FB42439B92B6DF23 /* SFProText-Semibold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,12 +47,19 @@
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = GymClass/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-GymClass-GymClassTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GymClass-GymClassTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-GymClass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymClass.debug.xcconfig"; path = "Target Support Files/Pods-GymClass/Pods-GymClass.debug.xcconfig"; sourceTree = "<group>"; };
+		4F584852ED6C484DB1213B68 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-SemiBold.ttf"; path = "../src/assets/fonts/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-GymClass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymClass.release.xcconfig"; path = "Target Support Files/Pods-GymClass/Pods-GymClass.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-GymClass-GymClassTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymClass-GymClassTests.debug.xcconfig"; path = "Target Support Files/Pods-GymClass-GymClassTests/Pods-GymClass-GymClassTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5D928771FB42439B92B6DF23 /* SFProText-Semibold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SFProText-Semibold.ttf"; path = "../src/assets/fonts/SFProText-Semibold.ttf"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-GymClass.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GymClass.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76FC2158C5304406959975A2 /* SFProText-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SFProText-Medium.ttf"; path = "../src/assets/fonts/SFProText-Medium.ttf"; sourceTree = "<group>"; };
+		7C3C71EFD2444A7E9C681867 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Medium.ttf"; path = "../src/assets/fonts/Montserrat-Medium.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = GymClass/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-GymClass-GymClassTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymClass-GymClassTests.release.xcconfig"; path = "Target Support Files/Pods-GymClass-GymClassTests/Pods-GymClass-GymClassTests.release.xcconfig"; sourceTree = "<group>"; };
+		99221B65EF544C798B48EFB5 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Bold.ttf"; path = "../src/assets/fonts/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
 		9B7EB5C8ECB3FA9D1AA8DDB6 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = GymClass/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		C4F25645FE664C0DB07D74F7 /* SFProText-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SFProText-Regular.ttf"; path = "../src/assets/fonts/SFProText-Regular.ttf"; sourceTree = "<group>"; };
+		C99510BCCB354F4EADD85674 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Regular.ttf"; path = "../src/assets/fonts/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -127,6 +141,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				C7A9393B3400433CA5066990 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -151,6 +166,21 @@
 				89C6BE57DB24E9ADA2F236DE /* Pods-GymClass-GymClassTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		C7A9393B3400433CA5066990 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				99221B65EF544C798B48EFB5 /* Montserrat-Bold.ttf */,
+				7C3C71EFD2444A7E9C681867 /* Montserrat-Medium.ttf */,
+				C99510BCCB354F4EADD85674 /* Montserrat-Regular.ttf */,
+				4F584852ED6C484DB1213B68 /* Montserrat-SemiBold.ttf */,
+				76FC2158C5304406959975A2 /* SFProText-Medium.ttf */,
+				C4F25645FE664C0DB07D74F7 /* SFProText-Regular.ttf */,
+				5D928771FB42439B92B6DF23 /* SFProText-Semibold.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +279,13 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				973E1989AF279422DE1F1536 /* PrivacyInfo.xcprivacy in Resources */,
+				0990137ADFCD4360A24E2F3F /* Montserrat-Bold.ttf in Resources */,
+				0F3C4C60DE57482CA01F5C36 /* Montserrat-Medium.ttf in Resources */,
+				876BE96BA8EA49C8B189027C /* Montserrat-Regular.ttf in Resources */,
+				2886A7FE702D4F7FAFDFCE00 /* Montserrat-SemiBold.ttf in Resources */,
+				AB53DFDE488542DE9478FE23 /* SFProText-Medium.ttf in Resources */,
+				96A9C8C025494BFC96292532 /* SFProText-Regular.ttf in Resources */,
+				F1588AEF136F4716B1D5FA65 /* SFProText-Semibold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,10 @@
+export { default as IcFavorite } from '../assets/svg/favorite.svg';
+export { default as IcFavoriteSelected } from '../assets/svg/favorite_selected.svg';
+export { default as IcAerobics } from '../assets/svg/aerobics.svg';
+export { default as IcBox } from '../assets/svg/box.svg';
+export { default as IcChildren } from '../assets/svg/children_selection.svg';
+export { default as IcRun } from '../assets/svg/run.svg';
+export { default as IcLocation } from '../assets/svg/location.svg';
+export { default as IcWatch } from '../assets/svg/watch.svg';
+export { default as IcDumbbell } from '../assets/svg/dumbbell.svg';
+export { default as IcSearch } from '../assets/svg/search.svg';
