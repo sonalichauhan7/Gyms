@@ -1,7 +1,7 @@
 import React from 'react';
 import { Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { AppColors, AppFonts, IcFavorite, IcFavoriteSelected, IcLocation, IcWatch } from '../constants';
-import { IGymList, IPopularClasses } from '../screens/HomeScreen/controller';
+import { IPopularClasses } from '../screens/HomeScreen/controller';
 import { AppSizes } from '../utils/sizes';
 import { AppStrings } from '../utils/strings';
 

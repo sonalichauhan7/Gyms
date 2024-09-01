@@ -1,7 +1,6 @@
 import React from 'react';
-import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import { AppColors, IcDumbbell, IcLocation, IcSearch } from '../constants';
-import { IPopularClasses } from '../screens/HomeScreen/controller';
 import { AppSizes } from '../utils/sizes';
 
 interface IHeaderProps {

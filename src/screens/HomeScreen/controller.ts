@@ -26,6 +26,7 @@ export interface IPopularClasses {
 export const HomeController = () => {
     const [gymList, SetGymList] = useState<IGymList[]>(gymData);
     const [selectedGym, SetSelectedGym] = useState<IGymList>(gymData[0]);
+    const [selectedGymId, SetSelectedGymId] = useState<number>(gymData[0].id);
     const [classCategoryList, SetClassCategoryList] = useState<IPopularClasses[]>(classCategory);
 
     useEffect(() => {
@@ -34,9 +35,9 @@ export const HomeController = () => {
         loadFavoriteClass();
     }, []);
 
-    // useEffect(() => {
-    //     loadFavoriteClass();
-    // }, [selectedGym]);
+    useEffect(() => {
+        loadFavoriteClass();
+    }, [selectedGymId]);
 
     const loadFavoriteGyms = async () => {
         try {
@@ -57,7 +58,20 @@ export const HomeController = () => {
         try {
             const existingFavorites = await AsyncStorage.getItem(AppConstants.PREF_POPULAR_CLASS);
             const favoriteArr = existingFavorites != null ? JSON.parse(existingFavorites) : [];
-            // console.log("favoriteArr loadFavoriteClass IS===>", favoriteArr)
+
+            SetGymList(prevState =>
+                prevState.map(gym => ({
+                    ...gym,
+                    popular_clasess: gym.popular_clasess.map(classItem =>
+                        favoriteArr.includes(classItem.id) ? { ...classItem, favorite: true } : classItem
+                    )
+                }))
+            );
+            const updatedGym = gymList.find(gym => gym.id === selectedGymId);
+            if (updatedGym) {
+                SetSelectedGym(updatedGym);
+            }
+
             SetSelectedGym(prevState => ({
                 ...prevState,
                 popular_clasess: prevState.popular_clasess.map(classItem =>
@@ -98,9 +112,10 @@ export const HomeController = () => {
             } else {
                 favoriteArr.push(selectedItemId);
             }
-            console.log("HERE favoriteArr===>", favoriteArr)
+            
             await AsyncStorage.setItem(AppConstants.PREF_FAV_GYMS, JSON.stringify(favoriteArr));
 
+            SetSelectedGymId(selectedItemId);
             SetGymList(prevState =>
                 prevState.map(item =>
                     item.id === selectedItemId ? { ...item, favorite: !item.favorite } : item
@@ -149,7 +164,7 @@ export const HomeController = () => {
             } else {
                 favoriteArr.push(selectedClassId);
             }
-            console.log("HERE favoriteClassArr===>", favoriteArr)
+           
             await AsyncStorage.setItem(AppConstants.PREF_POPULAR_CLASS, JSON.stringify(favoriteArr));
 
             SetSelectedGym(prevState =>

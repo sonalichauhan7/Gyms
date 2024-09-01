@@ -8,3 +8,6 @@ export { default as IcLocation } from '../assets/svg/location.svg';
 export { default as IcWatch } from '../assets/svg/watch.svg';
 export { default as IcDumbbell } from '../assets/svg/dumbbell.svg';
 export { default as IcSearch } from '../assets/svg/search.svg';
+export { default as IcDance } from '../assets/svg/dances.svg';
+export { default as IcSwimming } from '../assets/svg/swimming.svg';
+export { default as IcWrestling } from '../assets/svg/wrestling.svg';

@@ -1,4 +1,4 @@
-import { AppPngImages, IcAerobics, IcBox, IcChildren, IcRun } from "../constants";
+import { AppPngImages, IcAerobics, IcBox, IcChildren, IcDance, IcRun, IcSwimming, IcWrestling } from "../constants";
 
 export const gymData = [
     {
@@ -185,5 +185,29 @@ export const classCategory = [
         "location": "London,Villers st. 1",
         "time": "1h 30min",
         "image": IcRun
+    }, {
+        "id": 505,
+        "title": "Dancing Class",
+        "price": 220,
+        "favorite": false,
+        "location": "London,Villers st. 1",
+        "time": "1h 30min",
+        "image": IcDance
+    }, {
+        "id": 506,
+        "title": "Swimming Class",
+        "price": 300,
+        "favorite": false,
+        "location": "London,Villers st. 1",
+        "time": "1h 30min",
+        "image": IcSwimming
+    }, {
+        "id": 507,
+        "title": "Wrestling Class",
+        "price": 400,
+        "favorite": false,
+        "location": "London,Villers st. 1",
+        "time": "1h 30min",
+        "image": IcWrestling
     }
 ]
